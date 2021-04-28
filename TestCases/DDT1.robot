@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource    ../Resources/login_resources.robot
-# prerequisites for the test before the test is run
+# prerequisites for the test before the test is run and when finished
 Suite Setup    Open my Browser
 Suite Teardown    Close Browsers
 #Test template to use with DDT
@@ -24,7 +24,9 @@ Wrong user wrong password   admin@yourstore1.com   xyz
 
 *** Keywords ***
 Invalid login
+    # Use other user defined keywords from the resource file
     [Arguments]    ${username}  ${password}
+    # Whatever value is assigned to the variables will go into the args of the resource file
     Input username     ${username}
     Input pwd   ${password}
     Click Login Button

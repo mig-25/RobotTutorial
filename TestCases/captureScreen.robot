@@ -17,7 +17,7 @@ screenCapture
     input text  id:txtUsername  Admin
     input text    id:txtPassword    admin123
 
-    capture element screenshot    xpath://img[@src='/webres_5fee89a90600f2.94309009/themes/default/images/login/logo.png']  logo.png
+    capture element screenshot    xpath://img[@src='/webres_6051af48107ce6.31500353/themes/default/images/login/logo.png']  logo.png
     capture page screenshot    login.png
 
     sleep    3

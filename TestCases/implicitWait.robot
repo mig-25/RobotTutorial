@@ -9,14 +9,14 @@ ${url}  http://demowebshop.tricentis.com/register
 RegTest
 
     open browser    ${url}
-    maximize browser window
+    #maximize browser window
 
     # skapa en variabel för att mäta default tiden på selenium implicit wait
     ${implicitWait}     get selenium implicit wait
     log to console    ${implicitWait}
 
     # Vi använder selenium implicit wait för att vänta in en kontroll,
-    # enbart element som den hittar kommer den vänta på till den utsatta tiden
+    # enbart element som den inte hittar kommer den vänta på till den utsatta tiden
     # alla andra element, om dem hittas utförs omedelbart
     set selenium implicit wait  10 seconds
 

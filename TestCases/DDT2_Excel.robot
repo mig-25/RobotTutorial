@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Resource    ../Resources/login_resources.robot
-Library    DataDriver   ../TestData/LoginData.xlsx
+Library    DataDriver   ../TestData/LoginData.xlsx  #Sheet name can also be added
 
 Suite Setup    Open my Browser
 Suite Teardown    Close Browsers

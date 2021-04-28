@@ -30,6 +30,6 @@ TestHandleAlert
 
     #alert should not be present    Press a button!
 
-    #alert should not be present    Yeaahhh!     #Passing test, Check for text not be present in dialog box
+    alert should not be present    Yeaahhh!     #Passing test, Check for text not be present in dialog box
 
 

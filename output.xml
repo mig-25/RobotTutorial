@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.0.1 (Python 3.9.4 on win32)" generated="20210426 07:33:49.747" rpa="false" schemaversion="2">
+<robot generator="Robot 4.0.1 (Python 3.9.4 on win32)" generated="20210428 21:37:26.056" rpa="false" schemaversion="2">
 <suite id="s1" name="alertsHeadless" source="C:\Users\SolhailHasware\PycharmProjects\RobotTutorial\TestCases\alertsHeadless.robot">
 <test id="s1-t1" name="Handling Alerts">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>${browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20210426 07:33:49.894" level="INFO">Opening browser 'headless Firefox' to base url 'http://testautomationpractice.blogspot.com'.</msg>
-<msg timestamp="20210426 07:33:49.894" level="INFO">Firefox driver log is always forced to to: C:\Users\SolhailHasware\PycharmProjects\RobotTutorial\geckodriver-3.log</msg>
-<status status="PASS" starttime="20210426 07:33:49.894" endtime="20210426 07:33:58.142"/>
+<msg timestamp="20210428 21:37:26.457" level="INFO">Opening browser 'headless Firefox' to base url 'http://testautomationpractice.blogspot.com'.</msg>
+<msg timestamp="20210428 21:37:26.457" level="INFO">Firefox driver log is always forced to to: C:\Users\SolhailHasware\PycharmProjects\RobotTutorial\geckodriver-3.log</msg>
+<status status="PASS" starttime="20210428 21:37:26.457" endtime="20210428 21:37:35.702"/>
 </kw>
 <kw name="TestHandleAlert">
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>xpath://button[@onclick='myFunction()']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20210426 07:33:58.142" level="INFO">Clicking element 'xpath://button[@onclick='myFunction()']'.</msg>
-<status status="PASS" starttime="20210426 07:33:58.142" endtime="20210426 07:33:58.193"/>
+<msg timestamp="20210428 21:37:35.702" level="INFO">Clicking element 'xpath://button[@onclick='myFunction()']'.</msg>
+<status status="PASS" starttime="20210428 21:37:35.702" endtime="20210428 21:37:35.784"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>3</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210426 07:34:01.204" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20210426 07:33:58.193" endtime="20210426 07:34:01.204"/>
+<msg timestamp="20210428 21:37:38.794" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20210428 21:37:35.784" endtime="20210428 21:37:38.794"/>
 </kw>
 <kw name="Handle Alert" library="SeleniumLibrary">
 <arg>ACCEPT</arg>
 <doc>Handles the current alert and returns its message.</doc>
-<msg timestamp="20210426 07:34:01.204" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
-<status status="PASS" starttime="20210426 07:34:01.204" endtime="20210426 07:34:01.235"/>
+<msg timestamp="20210428 21:37:38.794" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20210428 21:37:38.794" endtime="20210428 21:37:38.810"/>
 </kw>
-<status status="PASS" starttime="20210426 07:33:58.142" endtime="20210426 07:34:01.235"/>
+<status status="PASS" starttime="20210428 21:37:35.702" endtime="20210428 21:37:38.810"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20210426 07:34:03.247" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20210426 07:34:01.235" endtime="20210426 07:34:03.247"/>
+<msg timestamp="20210428 21:37:40.817" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20210428 21:37:38.810" endtime="20210428 21:37:40.817"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210426 07:34:03.247" endtime="20210426 07:34:03.678"/>
+<status status="PASS" starttime="20210428 21:37:40.817" endtime="20210428 21:37:41.372"/>
 </kw>
-<status status="PASS" starttime="20210426 07:33:49.894" endtime="20210426 07:34:03.678"/>
+<status status="PASS" starttime="20210428 21:37:26.457" endtime="20210428 21:37:41.372"/>
 </test>
-<status status="PASS" starttime="20210426 07:33:49.763" endtime="20210426 07:34:03.678"/>
+<status status="PASS" starttime="20210428 21:37:26.056" endtime="20210428 21:37:41.372"/>
 </suite>
 <statistics>
 <total>

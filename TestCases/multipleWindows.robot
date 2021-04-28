@@ -9,6 +9,7 @@ TabbedWindowsTest
     open browser    ${url}
     Multipe Windows
 
+    #stänger alla test fönster
     close all browsers
 
 
@@ -18,6 +19,6 @@ Multipe windows
     switch window    title=SeleniumHQ Browser Automation
     click element    xpath://a[contains(text(),'Downloads')]
 
-    click element    xpath://a[contains(text(),'Firefox')]
+    click link    xpath://a[contains(text(),'Firefox')]
 
     sleep   3

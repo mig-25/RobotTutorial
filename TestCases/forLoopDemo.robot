@@ -18,7 +18,7 @@ ForLoop
 
 *** Keywords ***
 Loop
-    FOR     ${i}    IN RANGE   1   10
+    FOR     ${i}    IN RANGE   1   11
     LOG TO CONSOLE    ${i}
     END
 
